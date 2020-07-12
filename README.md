@@ -1,4 +1,4 @@
-A single repository to get started with learning about programming.
+A single repository to get started with learning about programming or preparing for a technical interview.
 What will be covered:  
 - Datastructures (e.g Heap, Stack, etc)
 - Common optimization problems and solutions (e.g TCP with Simulated Annealing, AStart, etc)
