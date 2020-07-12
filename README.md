@@ -6,6 +6,6 @@ What will be covered:
 - OOP design patterns (Creational, Structural, Behavioral)
 - Common puzzels and examples (e.g GridPath challenge, etc)
 
-All content has theoretical explanations (see about files) and examples (see Runner classes).
+All content has theoretical explanations (see individual README) and examples (see Runner classes).
 
 All content has references to source.

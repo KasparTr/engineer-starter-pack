@@ -32,7 +32,8 @@ public class FlyweightRunner extends JFrame {
             public void actionPerformed(ActionEvent event) {
                 Graphics g = panel.getGraphics();
                 for (int i = 0; i < 20; ++i) {
-                    Shape shape = ShapeFactory.getShape(getRandomShapeType());  // first loop, notice the delay in creating first Line Object and Oval objects with fill as true and false. After that the program executes quickly since its using the shared objects.
+                    // if i=0 or this shape type is not in memory, notice the delay in creating first Line Object and Oval objects with fill as true and false. After that the program executes quickly since its using the shared objects.
+                    Shape shape = ShapeFactory.getShape(getRandomShapeType());
                     shape.draw(g, getRandomX(), getRandomY(), getRandomWidth(),
                             getRandomHeight(), getRandomColor());
                 }

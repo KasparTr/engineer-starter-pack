@@ -1,6 +1,9 @@
-Flyweight Pattern
+<h3>Flyweight Pattern</h3>
+<p><i>
 Subclass of Structural patterns. They help to define relationships between objects.
 Flyweight design pattern is a Structural design pattern like Facade pattern, Adapter Pattern and Decorator pattern.
+</i></p>
+
 
 Flyweight design pattern is used when we need to create a lot of Objects of a class.
 Since every object consumes memory space that can be crucial for low memory devices, such as mobile devices or embedded systems, flyweight design pattern can be applied to reduce the load on memory by sharing objects.

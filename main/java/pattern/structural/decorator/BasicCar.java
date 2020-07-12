@@ -7,7 +7,7 @@ public class BasicCar implements Car {
 
     @Override
     public void assemble() {
-        System.out.print("Basic Car.");
+        System.out.print("Assembling a Basic Car.");
     }
 
 }

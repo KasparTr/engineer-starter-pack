@@ -1,12 +1,12 @@
-Composite Pattern
-Subclass of Structural patterns. They help to define relationships between objects.
+<h3>Composite Pattern</h3>
+<p><i>Subclass of Structural patterns. They help to define relationships between objects.</i></p>
 
-Composite treats a group of objects as a single object. Used in tree like structures where the parent node is dependent on child node.
-[1]
+Composite treats a group of objects as a single object and allows to control many of these objects as one.[1]
 
 When we need to create a structure in a way that the objects in the structure has to be treated the same way, we can apply composite design pattern.
 Lets understand it with a real life example:
-A diagram is a structure that consists of Objects such as Circle, Lines, Triangle etc.
+
+A Diagram is a structure that consists of Objects such as Circle, Lines, Triangle etc.
 When we fill the drawing with color (say Red), the same color also gets applied to the Objects in the drawing.
 Here drawing is made up of different parts and they all have same operations.
 

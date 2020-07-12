@@ -15,6 +15,7 @@ public class Drawing {
     public List<Shape> getShapes() {
         return new ArrayList<Shape>(shapes);
     }
+
     public void draw() {
         if (shapes.isEmpty()) {
             System.out.println("Nothing to draw!");
@@ -22,6 +23,7 @@ public class Drawing {
             shapes.stream().forEach(shape -> shape.draw());
         }
     }
+
     public void resize() {
         if (shapes.isEmpty()) {
             System.out.println("Nothing to resize!");

@@ -2,9 +2,12 @@ package pattern.structural.proxy;
 
 public class ProxyRunner {
     public static void main(String[] args){
-        CommandExecutor executor = new CommandExecutorProxy("Pankaj", "wrong_pwd");
+        CommandExecutor sudoExecutor = new CommandExecutorProxy("Kaspar", "Password123");
+        CommandExecutor executor = new CommandExecutorProxy("Kaspar", "wrongPass");
+
         try {
-            executor.runCommand("ls -ltr");
+            sudoExecutor.runCommand("ls -ltr");
+            sudoExecutor.runCommand(" sudo rm -rf abc.pdf");
             executor.runCommand(" sudo rm -rf abc.pdf");
         } catch (Exception e) {
             System.out.println("Exception Message::"+e.getMessage());
