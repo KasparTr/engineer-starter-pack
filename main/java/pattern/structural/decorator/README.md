@@ -16,9 +16,9 @@ The inheritance hierarchy will look like this:
 
 But if we want to get a car at runtime that has both the features of sports car and luxury car, then the implementation gets complex and
 if further more we want to specify which features should be added first, it gets even more complex.
-Now imagine if we have ten different kind of cars, the implementation logic using inheritance and composition will be impossible to manage.
+Now imagine if we have ten different kind of cars, the implementation logic using inheritance and composition will be very difficult to manage.
 
-To solve this kind of programming situation, we apply a decorator pattern.
+To solve this kind of programming challenge, we can apply the decorator pattern.
 
 Decorator Design Pattern – Important Points
 1) Decorator design pattern is helpful in providing runtime modification abilities and hence creates more flexibility. Its easy to maintain and extend when the number of choices grows.
