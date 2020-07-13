@@ -9,7 +9,7 @@ We use inheritance or composition to extend the behavior of an object but this i
 We can’t add any new functionality of remove any existing behavior at runtime – this is when Decorator pattern comes into picture.
 
 Suppose we want to implement different kinds of cars – we can create interface Car to define the assemble method and then we can have a Basic car, further more we can extend it to Sports car and Luxury Car.
-The implementation hierarchy will look like below:
+The inheritance hierarchy will look like this:
 
     Car -> Basic Car -> Sports Car
                         Luxury Car
