@@ -6,9 +6,7 @@ Class creational patterns use inheritance effectively in the instantiation proce
 Object-creation class use delegation effectively to get the task completed.</i></p>
 
 <p>
-In Singleton pattern only single instance of a class is created and provided with global access to that object. [1]
-
-Singleton pattern is one of the simplest design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+Singleton pattern is one of the simplest design patterns in Java. In Singleton pattern, only single, global instance of a class is created. [1]
 
 This pattern involves a single class which is responsible to create an object while making sure that only single object gets created.
 This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.[2]
