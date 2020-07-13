@@ -12,10 +12,9 @@ Here drawing is made up of different parts and they all have same operations.
 
 Composite Pattern consists of following objects.
 
-- Base Component – Base component is the interface for all objects in the composition, client program uses base component to work with the objects in the composition. It can be an interface or an abstract class with some methods common to all the objects.
-- Leaf – Defines the behaviour for the elements in the composition. It is the building block for the composition and implements base component. It doesn’t have references to other Components.
-- Composite – It consists of leaf elements and implements the operations in base component.
-Here I am applying composite design pattern for the drawing scenario.
+- Base Component – Base component is the interface for all objects in the composition, client program uses base component to work with the objects in the composition. It can be an interface or an abstract class with some methods common to all the objects. In this example, Shape is the base component.
+- Leaf – Defines the behaviour for the elements in the composition. It is the building block for the composition and implements base component. It doesn’t have references to other Components. In this example, Triangle is the leaf class. 
+- Composite – It consists of leaf elements the implement the operations in base component. In this example, Drawing is the composite class.
 [2]
 
 
