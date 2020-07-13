@@ -1,7 +1,7 @@
 <h3>Bridge Pattern</h3>
 <p><i>Subclass of Structural patterns. They help to define relationships between objects.</i></p>
 
-Bridge pattern is used to Decouple an abstraction from its implementation so that the two can vary independently
+Bridge pattern is used to decouple an abstraction from its implementation so that the two can vary independently.
 The implementation of bridge design pattern follows the notion to prefer Composition over inheritance.[2]
 
 <b>Example</b>:
@@ -19,8 +19,8 @@ The implementation of bridge design pattern follows the notion to prefer Composi
         }
     }
 
-On the above example, an abstraction (interface) needs to be decoupled from implementation (Triangle).
-To achieve this, Bridge pattern is used. 
+On the above example, an abstraction (Color interface) needs to be decoupled from implementation (Triangle).
+To achieve this, lets use the Bridge pattern. 
 
 Sources:
 [1] - https://www.ttmind.com/techpost/Design-Patterns-in-Object-Oriented-Programming-OOP
