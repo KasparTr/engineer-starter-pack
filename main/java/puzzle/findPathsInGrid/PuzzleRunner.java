@@ -1,4 +1,4 @@
-package puzzle;
+package puzzle.findPathsInGrid;
 
 public class PuzzleRunner {
 
