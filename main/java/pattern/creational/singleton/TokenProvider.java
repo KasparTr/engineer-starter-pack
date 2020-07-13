@@ -1,5 +1,7 @@
 package pattern.creational.singleton;
 
+import java.util.Random;
+
 public class TokenProvider {
 
     private final String asciiUpperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -23,8 +25,7 @@ public class TokenProvider {
     }
 
     public String generateToken(){
-        System.out.println("Here is your single token");
-        return generateRandomString(20, asciiChars)
+        return generateRandomString(40, asciiChars);
     }
     
     private String generateRandomString(int length, String seedChars) {
