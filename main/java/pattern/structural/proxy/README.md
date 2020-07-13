@@ -12,7 +12,7 @@ Let’s say we have a class that can run some command on the system. Now if we a
 Here a proxy class can be created to provide controlled access of the program.
 [2]
 
-<i>Similar to Facade pattern but used for different purposes. More to hide the direct behaviour of the underlyiing class.</i> 
+<i>Similar to Facade pattern but used for different purposes. Proxy controls access to but doesn't necessaily hide the implementation details of the underlying class it controls.</i> 
 
 Sources:
 [1] - https://www.ttmind.com/techpost/Design-Patterns-in-Object-Oriented-Programming-OOP

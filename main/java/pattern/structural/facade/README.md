@@ -20,6 +20,8 @@ Facade Design Pattern Important Points
 - We can use Factory pattern with Facade to provide better interface to client systems.
 [2]
 
+<i>Similar to Proxy pattern, but used for different purposes. Facade wraps (and hides) the behaviour of the underlying class (e.g interface).</i> 
+
 Sources:
 [1] - https://www.ttmind.com/techpost/Design-Patterns-in-Object-Oriented-Programming-OOP
 [2] - https://www.journaldev.com/1572/proxy-design-pattern
