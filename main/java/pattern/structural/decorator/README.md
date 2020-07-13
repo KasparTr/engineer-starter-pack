@@ -5,6 +5,8 @@ Subclass of Structural patterns. They help to define relationships between objec
 
 The Decorator pattern helps to insert functionality to an object dynamically during the run time.[1]
 
+Keywords: <b>Decorator implements the base component (e.g interface) while also having a HAS-A relationship with the same class.</b>
+
 We use inheritance or composition to extend the behavior of an object but this is done at compile time and its applicable to all the instances of the class.
 We can’t add any new functionality of remove any existing behavior at runtime – this is when Decorator pattern comes into picture.
 
