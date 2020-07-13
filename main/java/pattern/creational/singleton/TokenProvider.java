@@ -27,7 +27,7 @@ public class TokenProvider {
         return generateRandomString(20, asciiChars)
     }
     
-    private static String generateRandomString(int length, String seedChars) {
+    private String generateRandomString(int length, String seedChars) {
         StringBuilder sb = new StringBuilder();
         int i = 0;
         Random rand = new Random();
