@@ -3,6 +3,7 @@ What will be covered:
 - Datastructures (e.g Heap, Stack, etc)
 - Common optimization problems and solutions (e.g TCP with Simulated Annealing, AStart, etc)
 - Common sorting algorithms (e.g Quicksort, Heapsort, Mergesort, etc)
+- Common search algorithms (e.g Aho Corasic, Rabin Karp, etc)
 - OOP design patterns (Creational, Structural, Behavioral)
 - Common puzzels and examples (e.g GridPath challenge, etc)
 
